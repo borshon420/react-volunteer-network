@@ -8,7 +8,7 @@ import './AddVolunteer.css';
 const AddVolunteer = () => {
     const [users, setUsers] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/users')
+        fetch('https://shielded-oasis-61030.herokuapp.com/users')
         .then(res => res.json())
         .then(data => setUsers(data))
     }, [])
