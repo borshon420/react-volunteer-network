@@ -1,0 +1,14 @@
+.register-form form{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.register-form input, textarea {
+    width: 30%;
+    margin-bottom: 10px;
+}
